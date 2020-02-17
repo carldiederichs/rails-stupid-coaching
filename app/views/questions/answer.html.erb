@@ -1,0 +1,12 @@
+<div class="question">
+  <h1><%= params[:question] %></h1>
+  <p><em>-You</em></p>
+</div>
+
+<div class="answer" >
+  <h1><%= @answer %></h1>
+  <p><em>-Your coach</em></p>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
+<!-- <a href="/ask">Ask a new question</a> -->
