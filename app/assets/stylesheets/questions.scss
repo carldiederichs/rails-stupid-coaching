@@ -1,3 +1,53 @@
-// Place all the styles related to the Questions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Helvetica";
+}
+
+.btn {
+  background-color: #327AB8;
+  color: white;
+  border: none;
+  width: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Helvetica";
+  font-size: 16px;
+}
+
+.input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Helvetica";
+  border-style: none;
+  border: 1px solid lightgrey ;
+  font-size: 16px;
+}
+
+.question {
+  padding: 20px;
+  border-left: 6px solid lightgrey;
+  margin-left: 20px;
+}
+.answer {
+  background-color: #FFFEE1;
+  padding: 20px;
+  border-left: 6px solid lightgrey;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.link{
+  padding: 20px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+}
